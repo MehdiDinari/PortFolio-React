@@ -40,14 +40,15 @@ const StarBackground = (props: any) => {
 
 const StarCanvas = () => {
     return (
-        <div className='w-full h-auto fixed inset-0 z-[20]'>
-            <Canvas camera={{ position: [0, 0, 1] }}>
+        <div className="absolute inset-0 z-[20]">
+            <Canvas camera={{ position: [0, 0, 1] }} style={{ width: '100vw', height: '100vh' }}>
                 <Suspense fallback={null}>
                     <StarBackground />
                 </Suspense>
             </Canvas>
         </div>
-    )
+    );
 }
 
-export default StarCanvas
+export default StarCanvas;
+
