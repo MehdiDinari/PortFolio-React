@@ -1,36 +1,96 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# React TypeScript Portfolio
 
-## Getting Started
+Welcome to my personal portfolio built using React and TypeScript! This project showcases my skills, projects, and experiences in a sleek, modern web application.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- Fully responsive and mobile-friendly design
+- Built with React and TypeScript for better scalability and type safety
+- Dynamic project showcase with filtering options
+- Contact form with email functionality
+- Dark mode support
+- Animations and smooth transitions for a better user experience
+
+## Technologies Used
+
+- **React** (with Hooks & Context API)
+- **TypeScript** (for type safety and improved development experience)
+- **Tailwind CSS** (for modern styling)
+- **Framer Motion** (for animations)
+- **React Router** (for seamless navigation)
+- **EmailJS** (for handling contact form submissions)
+
+## Installation
+
+Follow these steps to run the project locally:
+
+1. **Clone the repository**
+
+   ```sh
+   git clone https://github.com/yourusername/react-portfolio.git
+   cd react-portfolio
+   ```
+
+2. **Install dependencies**
+
+   ```sh
+   npm install
+   ```
+
+3. **Run the development server**
+
+   ```sh
+   npm run dev
+   ```
+
+4. **Open in browser**
+
+   Navigate to `http://localhost:5173/` (or the specified port) to view your portfolio.
+
+## Deployment
+
+This project can be deployed using platforms like **Vercel**, **Netlify**, or **GitHub Pages**. Example deployment with Vercel:
+
+```sh
+npm install -g vercel
+vercel
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Folder Structure
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+react-ts-portfolio/
+├── public/          # Static assets
+├── src/
+│   ├── components/  # Reusable UI components
+│   ├── pages/       # Page components
+│   ├── assets/      # Images and icons
+│   ├── styles/      # Global styles
+│   ├── hooks/       # Custom hooks
+│   ├── utils/       # Utility functions
+│   ├── App.tsx      # Main application file
+│   ├── main.tsx     # Entry point
+├── .gitignore       # Ignored files
+├── package.json     # Project dependencies
+├── tsconfig.json    # TypeScript configuration
+├── vite.config.ts   # Vite configuration
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Customization
 
-## Learn More
+- Modify `src/assets/` to update images and icons.
+- Update `src/data/projects.ts` to add/remove projects.
+- Edit `src/pages/About.tsx` to personalize the About Me section.
 
-To learn more about Next.js, take a look at the following resources:
+## Contact
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+If you have any questions or want to collaborate, feel free to reach out:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+📧 Email: treshlo202@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/mehdi-dinari-b0487a2a9/)  
+📂 [GitHub](https://github.com/yourusername)
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is licensed under the **MIT License**.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
